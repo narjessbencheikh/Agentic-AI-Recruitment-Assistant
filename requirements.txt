@@ -9,9 +9,15 @@ ollama
 # Vector store & embeddings
 chromadb
 sentence-transformers
+scikit-learn
+torchvision
 
 # PDF parsing
 pypdf
+
+# UI
+streamlit
+
 
 # Utilities
 python-dotenv

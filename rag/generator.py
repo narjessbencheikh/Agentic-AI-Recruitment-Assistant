@@ -5,7 +5,7 @@ from langchain_core.prompts import PromptTemplate
 from rag.retriever import CVRetriever
 from dotenv import load_dotenv
 import os
-from prompt_templates import CV_GENERATION_PROMPT
+from rag.prompt_templates import CV_GENERATION_PROMPT
 
 
 load_dotenv()

@@ -6,6 +6,8 @@ import chromadb
 from pathlib import Path
 import os
 
+
+
 class CVIndexer:
     def __init__(self, vector_store_path: str = "data/vector_store"):
         # Modèle d'embedding - transforme le texte en vecteurs
