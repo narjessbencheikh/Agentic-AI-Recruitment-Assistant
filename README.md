@@ -1,5 +1,4 @@
-Voilà le README complet et pro :
-markdown# 🤖 AI Recruitment Assistant
+# 🤖 AI Recruitment Assistant
 
 An intelligent recruitment assistant powered by **Generative AI** and **Agentic AI** that analyzes job descriptions and generates optimized CVs based on required skills.
 
