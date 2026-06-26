@@ -210,20 +210,6 @@ python -c "from evaluation.metrics import RAGEvaluator; print(RAGEvaluator().eva
 
 ---
 
-## 🔧 Optimization & Improvements
-
-### Current Limitations
-1. **Low retrieval scores with small CV database** → improve by adding more CVs
-2. **Mistral sometimes returns malformed JSON** → handled with regex cleaning
-3. **No persistent session state** → CVs must be re-indexed on restart
-
-### Improvement Strategies
-1. Add **hybrid search** (semantic + keyword) for better retrieval
-2. Fine-tune prompts with **few-shot examples** for more consistent JSON output
-3. Add **persistent vector store** with automatic re-indexing
-
----
-
 ## 👤 Author
 
 **Narjess Bencheikh**  
