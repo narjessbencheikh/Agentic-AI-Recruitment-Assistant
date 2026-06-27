@@ -18,7 +18,7 @@ This system combines **Multi-Agent AI** and **RAG (Retrieval-Augmented Generatio
 
 ### Part 1 — Multi-Agent System (LangGraph)
 
-![Agent Architecture](assets/agent_architecture_overview.png)
+![Agent Architecture](assets/agent_architecture_diagram.png)
 
 
 **Agents:**
@@ -30,7 +30,7 @@ This system combines **Multi-Agent AI** and **RAG (Retrieval-Augmented Generatio
 ### Part 2 — RAG System
 data/cvs/ (PDFs)
 
-![RAG Pipeline](assets/rag_pipeline.png)
+![RAG Pipeline](assets/rag_pipeline_diagram.png)
 
 **Pipeline:**
 - **Indexing** → PDFs extracted, chunked (500 words, 50 overlap), embedded with `all-MiniLM-L6-v2`
