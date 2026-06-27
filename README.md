@@ -53,55 +53,34 @@ This system combines **Multi-Agent AI** and **RAG (Retrieval-Augmented Generatio
 ---
 
 ## 📁 Project Structure
+
+```
 ai-recruitment-assistant/
-
 ├── agents/
-
-│   ├── init.py
-
+│   ├── __init__.py
 │   ├── orchestrator.py      # LangGraph orchestration
-
 │   ├── job_analyzer.py      # Job description analysis
-
 │   ├── skill_extractor.py   # Skills extraction
-
 │   └── profile_searcher.py  # Benchmark profile generation
-
 ├── rag/
-
-│   ├── init.py
-
+│   ├── __init__.py
 │   ├── indexer.py           # PDF indexing into ChromaDB
-
 │   ├── retriever.py         # Semantic search
-
 │   ├── generator.py         # CV generation
-
 │   └── prompt_templates.py  # Centralized prompts
-
 ├── evaluation/
-
-│   ├── init.py
-
+│   ├── __init__.py
 │   └── metrics.py           # RAG evaluation metrics
-
 ├── data/
-
 │   ├── cvs/                 # CV database (PDFs)
-
 │   └── job_descriptions/    # Job descriptions (PDFs)
-
 ├── app.py                   # Streamlit interface
-
 ├── .env                     # Environment variables
-
 ├── requirements.txt
-
 ├── Dockerfile
-
 └── docker-compose.yml
+```
 
----
 
 ## 🚀 Getting Started
 
